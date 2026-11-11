@@ -1,0 +1,19 @@
+datos = [3, 8, 12, 19, 25, 31, 40, 47]
+
+1 Buscar el 31
+Primero vi el del medio que es 19, como 31 es mas grande me fui a la derecha.
+Quedaban 25, 31, 40, 47. Vi el medio de nuevo y era el 31.
+Mire: 19 y 31
+Fueron 2 pasos
+
+2 Buscar el 5
+Vi el medio que es 19, el 5 es menor asi que me fui a la izquierda.
+Quedaban 3, 8, 12. El medio es 8, el 5 es menor, otra vez a la izquierda.
+Solo quedaba el 3 y no es 5, ya no habia mas numeros.
+Mire: 19, 8 y 3
+Fueron 3 pasos y el 5 no esta
+
+3 Maximo de pasos
+Para 1000 datos son 10 pasos porque 2^10 = 1024
+Para 1000000 son 20 pasos porque 2^20 ya pasa el millon
+Es porque cada paso se descarta la mitad
