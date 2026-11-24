@@ -1,5 +1,3 @@
-Jose Vidal Bautista Aruquipa
-
 Expediente · Análisis de Algoritmos
 
 Mi caso: control de pagos de expensas de la Torre Ventura
