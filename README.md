@@ -1,3 +1,5 @@
+﻿Jose Vidal Bautista Aruquipa
+
 Expediente · Análisis de Algoritmos
 
 Mi caso: control de pagos de expensas de la Torre Ventura
@@ -15,6 +17,7 @@ Revisar y ordenar todo a mano me tomaba entre 1 y 2 horas
 | H1 | El proceso lento que elegí y por qué quiero optimizarlo (proceso.md) con una muestra de los pagos (datos_muestra.csv) | [h1](h1/) |
 | H2 | Inventario de operaciones estructura elegida (tabla hash con clave unidad-mes) y medición lista contra hash | [hitos/h2](hitos/h2/) |
 | H3 | Estrategia voraz o dinámica y comparación fuerza bruta contra dinámica con el fondo de mantenimiento | [hitos/h3](hitos/h3/) |
+| Grafo | Mi caso como grafo con la red de agua del edificio BFS componentes y medición lista contra matriz | [hitos/h3/grafo.md](hitos/h3/grafo.md) |
 
 Prácticas y parciales
 
@@ -32,5 +35,11 @@ Resumen de mis decisiones
 Buscar si una unidad pagó un mes es un problema de búsqueda y lo resuelvo con una tabla hash en O(1)
 
 Elegir qué arreglos hacer con el fondo es un problema de optimización tipo mochila y lo resuelvo con programación dinámica porque el voraz se equivoca
+
+¿Mi caso se puede modelar como un grafo?
+
+Los pagos no porque cada pago es un registro suelto y lo que hago es buscar por clave
+
+Pero la red de agua del edificio sí es un grafo de 73 nodos y 72 cañerías y lo demuestro con BFS y componentes en [hitos/h3/grafo.md](hitos/h3/grafo.md)
 
 Todo el código está en PHP
